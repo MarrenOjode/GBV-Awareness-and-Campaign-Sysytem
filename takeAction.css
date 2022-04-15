@@ -1,0 +1,117 @@
+/* home section styling */
+.home{
+    display: flex;
+    background: url("images/gbv-8.jpg") no-repeat center;
+    height: 99vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+	opacity:0.9;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+}
+.home .max-width .row{
+  margin-right: 0;
+}
+.home .home-content .text-1{
+    font-size: 15px;
+	width:25%;
+	color:#fff;
+	font-weight: 900;
+	margin-left:1%;
+	margin: 30px 0px 15px 6px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 60px;
+    margin: 15px 0;
+}
+.home .home-content .text-3 span{
+    color: orange;
+    font-weight: 900;
+}
+.home .home-content a{
+    display: inline-block;
+    background: teal;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #AA4D39;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: #fff;
+    background: none;
+}
+
+/* services section styling */
+.services {
+    color:#111;
+    background: #f2f3f4;
+	margin-top:-50px;
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: gray;
+    text-align: center;
+	color:#000;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: #79200D;
+	color:#fff;
+}
+.services .serv-content .card .box{
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card i{
+    font-size: 40px;
+    color: teal;
+    transition: color 0.3s ease;
+}
+.services .serv-content .card:hover i{
+    color: #fff;
+}
+.services .serv-content .card .text{
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 0 7px 0;
+}
+.services .serv-content .card p{
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0 7px 0;
+}
+.services .btn-2 {
+    display: inline-block;
+    background: teal;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #79200D;
+    transition: all 0.3s ease;
+}
+.services .btn-2:hover{
+    color: #fff;
+    background: #222;
+}
